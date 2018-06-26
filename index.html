@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<body background="C:\codingwork\codinghmwrk\assets\images\funky-lines.png">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../assets/reset.css">
+        <link rel="stylesheet" type="text/css" href="../assets/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    </head>
+
+    <body>
+
+        <header id="masthead">
+            <div class="container">
+                <a href="index.html" id="logo">Chris Hericks</a>
+                <nav>
+                    <a href="..\Basic-Portfolio\Index.html">About |</a>
+                    <a href="..\Basic-Portfolio\Portfolio.html">Portfolio |</a>
+                    <a href="..\Basic-Portfolio\Contact.html">Contact</a>
+                </nav>
+            </div>
+
+            <script>
+                /* This script displays a greeting based on the time of day the page is loaded. It is an example from my JavaSript book */
+                //addiing this script from Javasript& JQuery, (Jon Duckett) to add flare to the page/// 
+                var today = new Date();
+                var hourNow = today.getHours();
+                var greeting;
+
+                if (hourNow > 16) {
+                    greeting = "Good Evening!";
+                } else if (hourNow > 12) {
+                    greeting = "Good Afternoon!";
+                } else if (hourNow > 0) {
+                    greeting = "Good Morning!";
+                } else {
+                    greeting = "Welcome!";
+                }
+                document.write("<h3>" + greeting + "</h3>");
+
+
+            </script>
+
+
+        </header>
+        <div id="main-container" class="container">
+            <section class="main-section">
+                <h1>About Me</h1>
+                <img src="..\assets\images\slack pic.jpg" class="auth-image" alt="Chris Pic">
+
+                <p>I have been working in distribution management for 15 years. I am an avid sports fan and enjoy watching basketball
+                    and going to Cavs games. </p>
+
+                <p>My wife and I enjoy walking our dog and going on bike rides. I enjoy reading books about US History and traveling
+                    to see historic sites. My goal is to visit Normandy, France to see WWII historic sites. </p>
+                <br>
+                </p>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking
+                    at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+                    as opposed to using 'Content here, content here', making it look like readable English. Many desktop
+                    publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search
+                    for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over
+                    the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+                </p>
+
+
+            </section>
+            <div id="github">
+                <img src="..\assets\images\GitHub.jpg" class="git-image" alt="GitHub">
+
+                <h4><a href=https://github.com/hericksc target="_blank">My GitHub Profile </a></h4>
+                <br><br><br>
+                <img src="..\assets\images\LinkedIn.jpg" class="git-image" alt="LinkedIn">
+
+                <h4><a href=https://www.linkedin.com/in/chris-hericks-95610a68/ target="_blank">My LinkedIn Profile </a></h4>
+            </div>
+            <div id="main-container" class="container">
+
+                <section class="main-section">
+
+
+                    <h1>Coding Portfolio</h1>
+
+
+                    <div class="work">
+                        <img src="..\assets\images\HomePlateAPI.jpg" class="auth-image" alt="Home Plate">
+                        <h3>
+                            <a href=https://codingljn.github.io/Game-Day-/ target="_blank">API Project 1 </a>
+                        </h3>
+                        <br>
+
+                    </div>
+                    <div class="work">
+                        <img src="..\assets\images\GifTastic.jpg" class="auth-image" alt="GifTastic Project">
+                        <h3>
+                            <a href=https://hericksc.github.io/GifTastic/ target="_blank">GifTastic Project</a>
+                        </h3>
+                        <br>
+
+                    </div>
+                    <div class="work">
+                        <img src="..\assets\images\TrainScheduler.jpg" class="auth-image" alt="Train Scheduler">
+                        <h3>
+                            <a href=https://hericksc.github.io/Train-Scheduler/ target="_blank">Train Scheduler Project</a>
+                        </h3>
+                        <br>
+
+
+
+
+                    </div>
+                </section>
+                <!-- <div id="projects">
+                    <h2>GitHub Project Links</h2>
+
+                    <ul style="list-style-type:disc"></ul>
+
+                    <li>
+                        <a href=https://hericksc.github.io/Train-Scheduler/ target="_blank">Train Scheduler Project</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href=https://hericksc.github.io/GifTastic/ target="_blank">GifTastic Project</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href=https://codingljn.github.io/Game-Day-/ target="_blank">API Project 1 </a>
+                    </li>
+                </div> -->
+
+                <!-- <aside>
+<section>
+    <section class="sidebar">
+        <div id="connect">
+                <h2>Connect with Me</h2>
+                <img src="..\assets/images/GitHub.jpg" class="social" alt="Github" style="width:100%;max-width:100px">
+                <img src="..\assets/images/LinkedIn.jpg" class="social" alt="LinkedIn" style="width:100%;max-width:100px">
+                <img src="..\assets/images/StackOverflow.jpg" class="social" alt="Stack Overflow" style="width:100%;max-width:100px">
+
+        </div>
+    </section>
+</section>
+</aside> -->
+    </body>
+    <footer>
+        <div class="footer">
+            &copy;copyright Chris Hericks 2018
+        </div>
+    </footer>
+
+</html>
