@@ -6,8 +6,8 @@ body {
     width: 960px;
     font-size: 18px;
     line-height:34px;
-    font-family: 'arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    color: #777;
+    
+    color: lightblue;
     max-width: 100%;
 
 }
@@ -19,20 +19,20 @@ body {
 }
 h1, h2, h3, p {
     margin-bottom: 20px;
+    font-family: 'Source Code Pro', monospace;
+    
 }
 p:last-child {
     margin-bottom: 0;
 }
-h1, h2, h3 {
-    font-family: 'georgia', 'Times New Roman', Times, serif;
-    font-weight: 700;
-    color: #4aaaa5;
-}
+
 h1 {
     font-size: 30 px;
+    font-weight: bold;
     line-height: 49px;
     border-bottom: 3px solid #ddd;
     padding-bottom: 20px;
+    color: lightblue;
 }
 h2, h3 {
     font-size: 22px;
@@ -51,29 +51,21 @@ h2, h3 {
 }
 
 #logo {
-    width: 200px;
+    width: 400px;
     height: 90px;
     background: skyblue;
     float:left;
-    font-family: 'georgia', 'Times New Roman', Times, serif;
+    
+    font-family: 'Source Code Pro', monospace;
     text-align: center;
     line-height: 90px;
-    color: #fff;
+    color: lightslategray;
     font-weight: 700;
     font-size: 20px;
     text-decoration: none;
     max-width: 100%;
 }
-#projects {
-    background-color: lightgrey;
-    color: black;
-    width: 300px;
-    float: right;
-    padding-left: 10px;
-    margin-right: 20px;
-    margin-left: 400px;
-    
-}
+
 
 nav {
     float: right;
@@ -93,7 +85,8 @@ nav a:first-child {
 }
 /*main*/
 #main-container {
-    padding-top: 130px;
+    padding-top: 100px;
+
 
 }
 .main-section {
@@ -103,32 +96,24 @@ nav a:first-child {
     width: 100%;
     max-width: 650px;
     float: right;
-    border: 1px solid #ddd;
-    margin-left: 75px;
+
+    margin-left: 115px;
+    border: 5px solid #ddd;
+    margin-top: 10px;
 
 }
 .auth-image {
-    width: 200px;
+    width: 150px;
     height: auto;
     margin-top: 10px;
     float: left;
-    border: 1px solid #ddd;
+    border: 5px solid #ddd;
+    border-style: groove;
     margin-right: 25px;
     max-width: 100%;
 }
 
-/*sidebar*/
-.sidebar {
-    background: #fff;
-    padding: 30px;
-    width: 100%;
-    max-width: 270px;
-    float: right;
-    border: 1px solid #ddd;
-    margin-bottom: 20px;
-    margin-right:20px;
 
-}
 #connect {
     float: right;
 }
@@ -150,27 +135,31 @@ h3, .sidebar, h2 {
 .footer {
    background: #666;
    color: #fff;
-   padding: 30px 0;
+   padding: 2px 0;
    clear: both;
-   border-top: 8px solid skyblue;
+   border-top: 4px solid skyblue;
    color: #ccc;
    font-size: 12px;
    text-align: center;
-   width: 960px;
-   Bottom: fixed;
+   width: 1280px;
+   /* Bottom: fied; */
    max-width: 100%;
    left: 0;
    bottom: 0;
+   margin-top: 20px;
+   float: bottom;
+   position: fixed;
+
 
 
 }
 /*portfolio*/
 .work {
-    width: 274px;
+    width: 250px;
     overflow: auto;
     position: relative;
     float: left;
-    margin: 20px 0 25px;
+    margin: 10px 0 25px;
 }
 .work:nth-child(even) {
     margin-right: 40px;
@@ -199,11 +188,11 @@ h3, .sidebar, h2 {
 /*contacts*/
 
 #contact-form ul {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 
 }
 #contact-form li{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 
 }
 label,
@@ -222,16 +211,17 @@ textarea {
     font-size: 14px;
 }
 textarea {
-    height: 200px;
+    height: 100px;
 }
 
 input[type=submit] {
-    background: #4aaaa5;
+    background:skyblue;
     border: 0 none;
     color: #fff;
     font-size: 18px;
-    padding: 10px 30px;
+    padding: 3px 15px;
     cursor: pointer;
+    margin-bottom: 30px;
 
 }
 @media only screen and (max-width:620px) {
@@ -258,13 +248,14 @@ a:active {
 
 }
 #github {
-    background-color: lightgray;
-    height: 400px;
-    width: 600px;
+    background-color: white;
+    height: 250px;
+    width: 650px;
     float: right;
     margin-top: 50px;
     padding: 20px;
     margin-left: 200px;
+    border: 5px solid #ddd;
 }
 h4 {
     text-align: center;
