@@ -142,7 +142,7 @@ h3, .sidebar, h2 {
    color: #ccc;
    font-size: 12px;
    text-align: center;
-   width: 1280px;
+   width: 100%;
    /* Bottom: fied; */
    max-width: 100%;
    left: 0;
