@@ -225,7 +225,7 @@ input[type=submit] {
     margin-bottom: 30px;
 
 }
-@media only screen and (max-width:620px) {
+@media only screen and (max-width:900px) {
     /* For mobile phones: */
     #masthead, #main-container, .footer {
       width:100%;
